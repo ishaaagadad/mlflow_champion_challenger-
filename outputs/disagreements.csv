@@ -1,0 +1,9 @@
+id,text,reference,pred_A,pred_B,correct_model,comment
+4,"it moves quickly , adroitly , and without fuss ; it does n't give you time to reflect on the inanity -- and the cold war datedness -- of its premise . ",POSITIVE,POSITIVE,NEGATIVE,A,
+44,it has all the excitement of eating oatmeal . ,NEGATIVE,NEGATIVE,POSITIVE,A,
+56,oh come on . ,NEGATIVE,POSITIVE,NEGATIVE,B,
+94,a bloated gasbag thesis grotesquely impressed by its own gargantuan aura of self-importance ... ,NEGATIVE,POSITIVE,NEGATIVE,B,
+112,"writer/director joe carnahan 's grimy crime drama is a manual of precinct cliches , but it moves fast enough to cover its clunky dialogue and lapses in logic . ",POSITIVE,NEGATIVE,POSITIVE,B,
+116,"sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",NEGATIVE,POSITIVE,NEGATIVE,B,
+161,"outer-space buffs might love this film , but others will find its pleasures intermittent . ",NEGATIVE,POSITIVE,NEGATIVE,B,
+183,not since tom cruise in risky business has an actor made such a strong impression in his underwear . ,POSITIVE,POSITIVE,NEGATIVE,A,

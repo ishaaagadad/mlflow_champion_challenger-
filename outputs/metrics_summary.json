@@ -1,0 +1,33 @@
+{
+  "primary_metric": "macro_f1",
+  "margin": 0.01,
+  "latency_guardrail_x": 5.0,
+  "models": {
+    "A": {
+      "hf_model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+      "metrics": {
+        "accuracy": 0.935,
+        "macro_f1": 0.9343,
+        "macro_precision": 0.9359,
+        "macro_recall": 0.9331,
+        "avg_latency_ms": 29.5781,
+        "total_inference_s": 5.9156
+      }
+    },
+    "B": {
+      "hf_model_id": "textattack/bert-base-uncased-SST-2",
+      "metrics": {
+        "accuracy": 0.945,
+        "macro_f1": 0.9446,
+        "macro_precision": 0.9442,
+        "macro_recall": 0.945,
+        "avg_latency_ms": 57.7224,
+        "total_inference_s": 11.5445
+      }
+    }
+  },
+  "delta_primary_metric": 0.0103,
+  "latency_ratio_B_over_A": 1.95,
+  "winner": "B",
+  "reason": "Challenger wins: macro_f1 is higher by 0.0103 (margin 0.01)."
+}

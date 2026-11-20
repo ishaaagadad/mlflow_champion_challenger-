@@ -1,0 +1,9 @@
+text,label,score,alias,model_version,hf_model_id
+The MLflow lab was surprisingly easy to follow.,POSITIVE,0.958,champion,2,textattack/bert-base-uncased-SST-2
+The server kept crashing and I lost an hour of work.,NEGATIVE,0.998,champion,2,textattack/bert-base-uncased-SST-2
+What a fantastic idea for a project!,POSITIVE,0.9995,champion,2,textattack/bert-base-uncased-SST-2
+The instructions were confusing and badly written.,NEGATIVE,0.9989,champion,2,textattack/bert-base-uncased-SST-2
+I really enjoyed building the dashboard.,POSITIVE,0.9995,champion,2,textattack/bert-base-uncased-SST-2
+The food was cold and the service was painfully slow.,NEGATIVE,0.9976,champion,2,textattack/bert-base-uncased-SST-2
+This laptop runs quietly and the battery lasts all day.,NEGATIVE,0.9453,champion,2,textattack/bert-base-uncased-SST-2
+I would not recommend this course to anyone.,NEGATIVE,0.9841,champion,2,textattack/bert-base-uncased-SST-2

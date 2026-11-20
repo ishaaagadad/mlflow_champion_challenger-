@@ -1,0 +1,20 @@
+{
+  "run_name": "A_sentiment_distilbert-sst2",
+  "hf_model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+  "metrics": {
+    "accuracy": 0.935,
+    "macro_f1": 0.9343,
+    "macro_precision": 0.9359,
+    "macro_recall": 0.9331,
+    "avg_latency_ms": 29.5781,
+    "total_inference_s": 5.9156
+  },
+  "direction": {
+    "accuracy": "higher is better",
+    "macro_f1": "higher is better",
+    "macro_precision": "higher is better",
+    "macro_recall": "higher is better",
+    "avg_latency_ms": "lower is better",
+    "total_inference_s": "lower is better"
+  }
+}

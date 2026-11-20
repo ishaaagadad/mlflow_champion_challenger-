@@ -1,0 +1,20 @@
+{
+  "run_name": "B_sentiment_bert-sst2",
+  "hf_model_id": "textattack/bert-base-uncased-SST-2",
+  "metrics": {
+    "accuracy": 0.945,
+    "macro_f1": 0.9446,
+    "macro_precision": 0.9442,
+    "macro_recall": 0.945,
+    "avg_latency_ms": 57.7224,
+    "total_inference_s": 11.5445
+  },
+  "direction": {
+    "accuracy": "higher is better",
+    "macro_f1": "higher is better",
+    "macro_precision": "higher is better",
+    "macro_recall": "higher is better",
+    "avg_latency_ms": "lower is better",
+    "total_inference_s": "lower is better"
+  }
+}
